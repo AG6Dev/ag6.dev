@@ -1,0 +1,19 @@
+nav {
+    background-color: rgba(37, 38, 38, 0);
+
+    display: flex;
+
+    color: #0aafcd;
+    font-weight: 400;
+    /* stops it from moving from the top */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav > img {
+    width: 70px;
+    border-radius: 150px;
+
+    margin-right: 10px;
+}
